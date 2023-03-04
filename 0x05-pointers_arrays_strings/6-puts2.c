@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * puts2 - function should print only one character out of two
  * starting with the first one
@@ -23,7 +22,7 @@ void puts2(char *str)
 	{
 		if (o % 2 == 0)
 	{
-		putchar(str[o]);
+		_putchar(str[o]);
 	}
 	}
 	_putchar('\n');
