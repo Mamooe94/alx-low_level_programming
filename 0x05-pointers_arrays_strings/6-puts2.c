@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * puts2 - function that prints only one character out of two
  * starting with the first one
@@ -9,12 +10,12 @@ void puts2(char *str)
 {
 	int longi = 0;
 	int t = 0;
-	char *r = str;
+	char *y = str;
 	int o;
 
-	while (*r != '\0')
+	while (*y != '\0')
 	{
-		r++;
+		y++;
 		longi++;
 	}
 	t = longi - 1;
